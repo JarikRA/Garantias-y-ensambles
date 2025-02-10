@@ -1,0 +1,202 @@
+<resources>
+    <string name="app_name">Control de garantias y ensambles</string>
+
+    Months of the year
+    <string-array name="months_array">
+        <item>Todos</item>
+        <item>Enero</item>
+        <item>Febrero</item>
+        <item>Marzo</item>
+        <item>Abril</item>
+        <item>Mayo</item>
+        <item>Junio</item>
+        <item>Julio</item>
+        <item>Agosto</item>
+        <item>Septiembre</item>
+        <item>Octubre</item>
+        <item>Noviembre</item>
+        <item>Diciembre</item>
+    </string-array>
+
+    categories
+    <string-array name="categories">
+        <item>Fabricación</item>
+        <item>Archivado</item>
+        <item>Servicio</item>
+    </string-array>
+
+    categories without service
+    <string-array name="categories_without_Service">
+        <item>Fabricación</item>
+        <item>Archivado</item>
+    </string-array>
+
+    SearchActivity
+    <string name="tvMainTittleAS">Android</string>
+    <string name="etSearchBarSA">Buscar tarjeta</string>
+    <string name="btnSearchSA">Buscar</string>
+    <string name="btnArchiveCardsSA">Archivar tarjetas</string>
+    <string name="sbCardsSA">Ingresa el nombre de la tarjeta</string>
+    <string name="btnManufacturingSA">Fabricación</string>
+    <string name="btnAllSA">Todo</string>
+    <string name="btnFiledSA">Archivado</string>
+    <string name="btnServiceSA">Servicio</string>
+    <string name="tilModelSA">Cargando...</string>
+    <string name="tilYearSA">Año</string>
+    <string name="tilMonthSA">Mes</string>
+    <string name="tieSearchCardsSA">Primero realiza una busqueda</string>
+    <string name="tvSearchInformationSA">Ingresa tus criterios\n de busqueda</string>
+
+    NewCardActivity
+    <string name="tvTittleNCA">Nueva Tarjeta</string>
+    <string name="tvCardModelNCA">Modelo de tarjeta</string>
+    <string name="tilSelectModelNCA">Cargando...</string>
+    <string name="tvDateNCA">Fecha: </string>
+    <string name="tvSerialNumberNCA">Numero de serie: </string>
+    <string name="tvAmountNCA">Cantidad</string>
+    <string name="tieAmountNCA">1 a 300</string>
+    <string name="tvDetailsNCA">Detalles</string>
+    <string name="tieNameNCA">Nombre del ensamblador</string>
+    <string name="tieCommentsNCA">Comentarios</string>
+    <string name="btnCreateCardNCA">Crear</string>
+    <string name="btnCancelNCA">Cancelar</string>
+
+    ManufacturingInformationActivity
+    <string name="tvTittleMIA">Fabricación</string>
+    <string name="tvCardModelMIA">Modelo de tarjeta:</string>
+    <string name="tvCreationDateMIA">Fecha de creación:</string>
+    <string name="tvUpdateDateMIA">Fecha de actualización:</string>
+    <string name="tvSerialNumberMIA">No. de serie:</string>
+    <string name="tvCategoryMIA">Categoria:</string>
+    <string name="btnDisplayFieldsAddRecordMIA">Agregar registro</string>
+    <string name="tvUpdateMIA">Actualización</string>
+    <string name="tvNewStatusMIA">Nuevo estado de fabricación</string>
+    <string name="atvCategoryMIA">Categoria</string>
+    <string name="tieResponsibleNameMIA">Nombre de quien realiza la actualización</string>
+    <string name="tieCommentsMIA">Comentarios</string>
+    <string name="tvHistoryMIA">Historial</string>
+    <string name="btnUpdateMIA">Actualizar</string>
+    <string name="btnCancelMIA">Cancelar</string>
+
+    CardArchivedActivity
+    <string name="tvTittleCAC">Archivado</string>
+    <string name="feBtnCAC">Crear servicio</string>
+    <string name="tabInfoCAC">Informacion</string>
+    <string name="tabHistoriesCAC">Historiales</string>
+    <string name="tabServicesCAC">Servicios</string>
+
+    CardServiceActivity
+    <string name="tvTittleACS">Servicio</string>
+    <string name="tabInfoACS">Informacion</string>
+    <string name="tabHistoriesACS">Historiales</string>
+    <string name="tabServicesACS">Servicios</string>
+    <string name="feBtnACS">Archivar</string>
+
+    ServiceCreateActivity
+    <string name="tvTittleSRCA">Crear servicio</string>
+    <string name="tvDateSRCA">Fecha: </string>
+    <string name="tvCustomerInfoSRCA">Información del cliente</string>
+    <string name="tvServiceInfoSRCA">Informacion del servicio</string>
+    <string name="btnChangeCustomerSRCA">Cambiar cliente</string>
+    <string name="btnSetCustomerSRCA">Asignar cliente</string>
+    <string name="btnCreateServiceSRCA">Crear servicio</string>
+    <string name="tieFaultDescriptionSRCA">Descripción de la falla</string>
+    <string name="tieResponsibleNameSRCA">Responsable de crear el servicio</string>
+    <string name="btnCancelSRCA">Cancelar</string>
+
+    SelectCustomerActivity
+    <string name="tvTittleSCA">Selecciona el cliente</string>
+    <string name="tilSearchCustomersSCA">Buscar clientes</string>
+    <string name="tvCustomersListInfoSCA">Disculpa no se encontraron clientes</string>
+
+    AdminCardModelsActivity
+    <string name="tvTittleASA">Administrar modelos</string>
+    <string name="tvInfoASA">Lista de modelos de tarjetas</string>
+    <string name="tvModelListInfoASA">Disculpa, no hay modelos disponibles </string>
+
+    fragment_general_info
+    <string name="tvTittleCardFGI">Informacion de la tarjeta</string>
+    <string name="tvTittleCustomerFGI">Información del cliente</string>
+
+    fragment_histories
+    <string name="tvHistoriesListInfoFH">Disculpa, no hay historiales disponibles</string>
+
+    fragment_services
+    <string name="tvServiceListInfoFS">Esta tarjeta no tiene servicios</string>
+
+    card_model_item_list
+    <string name="btnEditCMIL">Editar</string>
+    <string name="btnDeleteCMIL">Eliminar</string>
+
+    customer_item_list
+    <string name="btnEditCustomerCIL">Editar info</string>
+    <string name="btnSelectCIL">Seleccionar</string>
+
+    history_item_list
+    <string name="tvDateRIL">Fecha: </string>
+    <string name="tvResponsibleNameRIL">Nombre del responsable: </string>
+    <string name="tvCategoryRIL">Categoria: </string>
+    <string name="tvCommentsRIL">Comentarios: </string>
+
+    service_item_list
+    <string name="tvTittleSIL">Servicio</string>
+
+    dialog_password
+    <string name="tvTittleDP">Ingrese la contraseña</string>
+    <string name="tiePassDP">Contraseña</string>
+    <string name="btnConfirmDP">Confirmar</string>
+    <string name="btnCancelDP">Cancelar</string>
+
+    dialog_edit_card_model
+    <string name="tvInfoDECM">Editar información del modelo de tarjeta</string>
+    <string name="tieModelNameDECM">Nombre de modelo</string>
+    <string name="tieAbbreviatedModelDECM">Modelo abreviado</string>
+    <string name="btnConfirmDECM">Confirmar</string>
+    <string name="btnCancelDECM">Cancelar</string>
+
+    dialog_confirm_delete_card_model
+    <string name="tvInfoDCD">¿Deseas confirmar la eliminacion?</string>
+    <string name="btnConfirmDCD">Confirmar</string>
+    <string name="btnCancelDCD">Cancelar</string>
+
+    dialog_new_card_model
+    <string name="tvInfoDNCM">Ingrese los datos del nuevo modelo</string>
+    <string name="tieModelNameDNCM">Nombre de modelo</string>
+    <string name="tieAbbreviatedModelDNCM">Modelo abreviado</string>
+    <string name="btnConfirmDNCM">Confirmar</string>
+    <string name="btnCancelDNCM">Cancelar</string>
+
+    dialog_new_customer
+    <string name="tvInfoDNC">Registre la información del cliente</string>
+    <string name="tieCustomerNameDNC">Nombre</string>
+    <string name="tiePhoneNumberDNC">Telefono</string>
+    <string name="tieEmailDNC">Correo electronico</string>
+    <string name="tieAddressDNC">Dirección</string>
+    <string name="tieZipCodeDNC">Codigo postal</string>
+    <string name="btnConfirmDNC">Registrar</string>
+    <string name="btnCancelDNC">Cancelar</string>
+
+    dialog_edit_customer
+    <string name="tvInfoDEC">Actualice la informacion del cliente</string>
+    <string name="tieCustomerNameDEC">Nombre</string>
+    <string name="tiePhoneNumberDEC">Telefono</string>
+    <string name="tieEmailDEC">Correo electronico</string>
+    <string name="tieAddressDEC">Dirección</string>
+    <string name="tieZipCodeDEC">Codigo postal</string>
+    <string name="btnUpdateDEC">Actualizar</string>
+    <string name="btnCancelDEC">Cancelar</string>
+
+    dialog_archive
+    <string name="tvTittleDA">Ingresa la reparacion para poder archivar</string>
+    <string name="tieResponsibleNameDA">Responsable de archivar</string>
+    <string name="tieRepairDA">Reparacion</string>
+    <string name="btnArchiveDA">Archivar</string>
+    <string name="btnCancelDA">Cancelar</string>
+
+    dialog_archive_manufacturing_cards
+    <string name="tvTittleDAMC">Ingresa al responsable de archivar</string>
+    <string name="tieResponsibleNameDAMC">Responsable de archivar</string>
+    <string name="btnArchiveDAMC">Archivar</string>
+    <string name="btnCancelDAMC">Cancelar</string>
+
+</resources>
